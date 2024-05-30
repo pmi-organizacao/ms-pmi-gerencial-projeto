@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Deploy do service ms-pmi-gerencial-projeto Producao
+name: Deploy do service ms-pmi-gerencial-projeto Homologacao
 
 on:
   push:
@@ -35,7 +35,7 @@ jobs:
 
   verificando:
       runs-on: ubuntu-latest
-  
+      needs: build
       steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 
@@ -51,7 +51,7 @@ jobs:
 
   deploy:
       runs-on: ubuntu-latest
-  
+      needs: verificando
       steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 

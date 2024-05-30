@@ -14,6 +14,7 @@ public class TestandoConexaoComApi {
 
     @RequestMapping(method = RequestMethod.GET)
     public ResponseEntity consultarSeConexaoEstaEmPe() {
+
         return ResponseEntity.status(HttpStatus.CREATED).body(new RetornoServicoBase("Teste de conexao", "Conectando normalmente"));
     }
 

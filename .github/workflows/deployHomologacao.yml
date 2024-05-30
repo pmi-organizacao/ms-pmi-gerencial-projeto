@@ -44,6 +44,8 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+      - name: Build with Maven
+        run: mvn -B package --file pom.xml
       - name: copiando arquivo para vm aws
         uses: appleboy/scp-action@master
         with:

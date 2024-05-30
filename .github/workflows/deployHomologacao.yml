@@ -69,7 +69,7 @@ jobs:
         with:
           port: 22
           username: ec2-user
-          password: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDooSdzoBhUaJa3Ag2EPDvRU0HySXuQfGJHleP3T3JLxo2iNWboh2Zgbz20klb5H5hsN/IFw7KRUwfsC0A4bQEnhsrhKznrikTflXpcHche8Oc+MhDG2VKhdO22WeiD87v5sKJGFHf4nzoGQWwAkp6JSfymV58Eilz2SBsx5mK9lenVwp5zZg1qt9wE5KGiSkiM0jK35i//4YRXzJW3ZpbTwGdLebFGHumHkpyTchuMoUwOrQi16ERvQ8UhqS49aVaWlrdHBdB0guf1SqxsVrkk7/KnLc18WLb6dMlxbRxLR63zg6FsvD9kXvw4h9VslXVCJjD8oQE2xznaxr/Zf7Coo9PvOSf41u8hfzY+nZy6UPUEFu15xrUAh9PoW2rqTGiT2HZCVCv+pjSPpbMTnZBFz42MlN2SPBT95lD2QZHPlnGW1xWuuacdDQD1siWuGjA0+oYeCgH7b92dCO5Q34k+mu+442mRIMJZxl9kihAuPqL0S/m7CeK+PvEIQPSJ/mDj02p39/+WpoaPqHHH4wuZDrBG3YCeB7SrhToHVgX9C8bjs80mp3YMKE6gc86dsR2Cm4u9lG+eLwpl3TVe9zlvv0wISYDKwARJ+aVwIcGAKTn1syh5WDAatnLZdjWhcL1FMGk+uJTM2yBJ+PIjDjms5he9wAL52C9tl3cypmDFSw== daniellopes0208@hotmail.com"
+          key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDooSdzoBhUaJa3Ag2EPDvRU0HySXuQfGJHleP3T3JLxo2iNWboh2Zgbz20klb5H5hsN/IFw7KRUwfsC0A4bQEnhsrhKznrikTflXpcHche8Oc+MhDG2VKhdO22WeiD87v5sKJGFHf4nzoGQWwAkp6JSfymV58Eilz2SBsx5mK9lenVwp5zZg1qt9wE5KGiSkiM0jK35i//4YRXzJW3ZpbTwGdLebFGHumHkpyTchuMoUwOrQi16ERvQ8UhqS49aVaWlrdHBdB0guf1SqxsVrkk7/KnLc18WLb6dMlxbRxLR63zg6FsvD9kXvw4h9VslXVCJjD8oQE2xznaxr/Zf7Coo9PvOSf41u8hfzY+nZy6UPUEFu15xrUAh9PoW2rqTGiT2HZCVCv+pjSPpbMTnZBFz42MlN2SPBT95lD2QZHPlnGW1xWuuacdDQD1siWuGjA0+oYeCgH7b92dCO5Q34k+mu+442mRIMJZxl9kihAuPqL0S/m7CeK+PvEIQPSJ/mDj02p39/+WpoaPqHHH4wuZDrBG3YCeB7SrhToHVgX9C8bjs80mp3YMKE6gc86dsR2Cm4u9lG+eLwpl3TVe9zlvv0wISYDKwARJ+aVwIcGAKTn1syh5WDAatnLZdjWhcL1FMGk+uJTM2yBJ+PIjDjms5he9wAL52C9tl3cypmDFSw== daniellopes0208@hotmail.com"
           host: ec2-54-90-54-3.compute-1.amazonaws.com
           source: "./target/aplicacao-0.0.1-SNAPSHOT.jar"
           target: "root/aplicacao"

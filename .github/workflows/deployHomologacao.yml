@@ -52,9 +52,10 @@ jobs:
           port: 22
           username: ec2-user
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          host: ec2-54-90-54-3.compute-1.amazonaws.com
+          host: ec2-54-196-207-75.compute-1.amazonaws.com
           source: "./target/aplicacao-0.0.1-SNAPSHOT.jar"
           target: "root/aplicacao"
+
 
   start:
       runs-on: ubuntu-latest
@@ -73,7 +74,7 @@ jobs:
           port: 22
           username: ec2-user
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          host: ec2-54-90-54-3.compute-1.amazonaws.com
+          host: ec2-54-196-207-75.compute-1.amazonaws.com
           script: "/home/ec2-user/root/aplicacao/target/deploy_aplicacao.sh"
     
     
